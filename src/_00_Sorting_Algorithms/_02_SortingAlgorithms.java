@@ -46,10 +46,12 @@ public class _02_SortingAlgorithms {
 			break;
 		}
 		case "Merge":{
+			//there is an error I can't figure out why 
 			new SortingVisualizer(new MergeSorter());
 			break;
 		}
 		case "Heap":{
+			//done
 			new SortingVisualizer(new HeapSorter());
 			break;
 		}

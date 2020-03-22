@@ -43,7 +43,7 @@ public class BogoSorter extends Sorter {
 				array[randy2] = a;
 				randy1 = randy.nextInt(array.length);
 				randy2 = randy.nextInt(array.length);
-				System.out.println(randy1 +" "+ randy2);
+				
 				display.updateDisplay();
 			} else {
 				break;
